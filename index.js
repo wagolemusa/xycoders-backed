@@ -1,7 +1,7 @@
 import express from  'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
-import cors from 'cors';
+import cors from 'cors'
 const dotenv = require("dotenv");
 const authRoute = require("./routes/auth");
 const userRoute = require("./routes/users");
@@ -57,5 +57,5 @@ app.use("/api/jobs", jobRoute)
 // app.use("/")
 
 app.get("*",(req, res) =>{
-  res.sendFile(path.join(__dirname,"./bill/build/index.html"))
+  // res.sendFile(path.join(__dirname,"./bill/build/index.html"))
 })
