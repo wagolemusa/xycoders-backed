@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node -r esm",
-    "dev": "nodemon -r esm .",
-    "build": "cd bill && npm install && npm run build",
-    "heroku-postbuild": "npm run build"
+    "start": "node -r esm",
+    "dev": "nodemon -r esm ."
   },
   "keywords": [],
   "author": "",
